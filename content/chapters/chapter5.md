@@ -41,7 +41,7 @@ MathJax.Hub.Config({
 * Notice that sampling distributions of point estimates coming from samples that don't meet the required conditions for the CLT (about sample size and independence) will not be normal.
 * Define a confidence interval as the plausible range of values for a population parameter.
 * Define the confidence level as the percentage of random samples which yield confidence intervals that capture the true population parameter.
-* Calculate an approximate 95\% confidence interval by adding and subtracting 2 standard errors to the point estimate: $point~estimate \pm 2 \times SE$.
+* Calculate an approximate 95% confidence interval by adding and subtracting 2 standard errors to the point estimate: $point~estimate \pm 2 \times SE$.
 * Recognize that the Central Limit Theorem (CLT) is about the distribution of point estimates, and that given certain conditions, this distribution will be nearly normal.
     * In the case of the proportion the CLT tells us that if
 		1. the observations in the sample are independent, and
@@ -56,7 +56,7 @@ MathJax.Hub.Config({
 * Recognize that the nearly normal distribution of the point estimate (as suggested by the CLT) implies that a more precise confidence interval can be calculated as
 \[ point~estimate \pm z^{\star} \times SE, \] 
 where $z^{\star}$ corresponds to the cutoff points in the standard normal distribution to capture the middle XX\% of the data, where XX\% is the desired confidence level.
-    * For proportions this is $\bar{x} \pm Z^\star \sqrt{\frac{p(1-p)}{n}}$.
+    * For proportions this is $p \pm Z^\star \sqrt{\frac{p(1-p)}{n}}$.
     * Note that $z^{\star}$ is always positive.
 * Define margin of error as the distance required to travel in either direction away from the point estimate when constructing a confidence interval, i.e. $z^{\star} \times SE$.
     * Notice that this corresponds to half the width of the confidence interval.
